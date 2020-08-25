@@ -94,10 +94,13 @@ class App extends Component {
             <div>
                 <div className="calculator-body">
                     <br/><br/>
-                    <center><h1>Prakash Calculator</h1>
+                    <center><h1>Calculator</h1>
                     </center><br/>
                     <ResultComponent result={this.state.result} input={this.state.input} />
                     <KeyComponent onClick={this.onClick}/>
+                    <center><h1>Created by Prakash Pandey</h1>
+                    <h1>Thank You</h1>
+                    </center>
                 </div>
             </div>
         );
